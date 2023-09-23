@@ -1,5 +1,10 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <main>
+    <Header />
+    <NuxtPage />
+  </main>
 </template>
+
+<style scoped lang="scss">
+
+</style>
