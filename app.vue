@@ -1,10 +1,10 @@
 <template>
   <main>
-    <Header />
-    <NuxtPage />
+    <Static id="left"/>
+    <NuxtPage id="right"/>
   </main>
 </template>
 
 <style lang="scss">
-
+@import './app.scss';
 </style>

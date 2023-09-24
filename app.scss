@@ -1,0 +1,20 @@
+@import '/theme/theme.scss';
+
+main {
+     width: 100%;
+     min-height: 100vh;
+     margin: 0;
+     padding: 0;
+     display: grid;
+     grid-template-columns: 50% 50%;
+     grid-template-rows: 100%;
+     grid-template-areas: 'left right';
+
+     #left {
+          grid-area: left;
+     }
+     #right {
+          grid-area: right;
+     }
+
+}

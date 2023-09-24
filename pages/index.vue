@@ -1,7 +1,6 @@
 <template>
-     <h1>index.vue</h1>
-
      <div class="posts">
+          <h1>index.vue</h1>
           <PostSneak
                v-for="post in posts"
                :post="post"
