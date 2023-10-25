@@ -37,7 +37,7 @@
 
 <style lang="scss" scoped>
      header {
-          background-color: var(--body);
+          background-color: var(--body-darker);
           color: var(--text);
 
           nav {

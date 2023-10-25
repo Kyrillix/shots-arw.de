@@ -20,7 +20,9 @@ export default defineNuxtConfig({
   },
   plugins: ['./plugins/markdown.ts'],
   strapi: {
-    url: process.env.STRAPI_URL || 'https://api.shots-arw.de'
+    url: process.env.STRAPI_URL || 'https://api.shots-arw.de' //?sort[0]=id:desc
+    
+    
   },
   app: {
     head: {

@@ -6,6 +6,7 @@
                <span class="date">veröffentlicht am {{ published }}</span>
           </p>
           <p class="intro-text"> {{ post.Intro }}</p>
+          <img :src="post.CoverURL" alt="cover">
      </div>
 </template>
 

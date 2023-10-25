@@ -1,12 +1,12 @@
 <template>
      <div class="posts">
-          <h1>index.vue</h1>
           <PostSneak
                v-for="post in posts"
                :post="post"
                :key="post.Title"
           />
      </div>
+     
      
 </template>
 
@@ -24,4 +24,9 @@
      });
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.posts {
+     background-color: var(--body);
+}
+</style>
+

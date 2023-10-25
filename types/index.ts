@@ -27,6 +27,7 @@ declare global {
           Intro: string;
           Content: string;
           Category: string;
+          CoverURL: string;
      }
 }
 
